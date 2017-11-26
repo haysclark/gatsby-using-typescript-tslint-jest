@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    siteName: `Using Typescript Example`,
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [
+    // Add typescript stack into webpack
+    `gatsby-plugin-typescript`,
+  ],
 }
